@@ -5,6 +5,8 @@ springboot-restful-helloworld
 ###
 
 ```
+curl http://localhost:8080/hello
+curl http://localhost:8080/hello?name=Nam
 curl -X POST -H "Content-Type: application/json" -d "{\"id\":1,\"name\":\"Kindle Fire\",\"price\":199}" http://localhost:8080/addproduct
 ```
 
